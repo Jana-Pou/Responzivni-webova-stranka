@@ -1,0 +1,222 @@
+body {
+    background-color: hsl(0, 0%, 81%);
+}
+
+.whole {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 200;
+}
+
+.left-column {
+    max-width: 70%;
+}
+
+.right-column {
+    max-width: 100%;
+    margin-left: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#title {
+    margin-bottom: 30px;
+}
+
+#description {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#buy-button {
+    background-color: rgb(252, 169, 0);
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 5px 5px 5px;
+    padding: 17px 30px 17px 30px;
+    font-weight: 800;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: hsl(0, 0%, 96%);
+    margin: 5px 5px 15px 5px;
+    padding-left: 5px;
+}
+
+.time {
+    padding-left: 10px;
+}
+
+.narrow {
+    margin-bottom: -5px;
+}
+
+#contact-information {
+    background-color: hsl(0, 0%, 96%);
+    margin: 5px;
+    padding: 10px 10px 10px 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+i {
+    color: rgb(252, 169, 0);
+    font-size: larger;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+.smaller {
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 10px;
+    color: gray;
+}
+
+#share {
+    padding-left: 15px;
+}
+
+hr {
+    width: 100px;
+    margin-left: 0px;
+    color: hsl(0, 0%, 81%);
+}
+
+.line {
+    border: 0;
+    height: 1.5px;
+    width: 190px;
+    background: rgb(252, 169, 0);
+    background: linear-gradient(to right,  rgb(252, 169, 0) 65%, hsl(0, 0%, 81%) 35%);
+}
+
+#share {
+    margin-top: 30px;
+    margin-bottom: -5px;
+}
+
+#social-media {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.outlook-google {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1.5px;
+    border-color: rgb(252, 169, 0);
+    border-style: solid;
+    margin-bottom: 10px;
+}
+
+#outlook {
+    margin-top: 20px;
+}
+
+.text-outlook-google {
+    padding-left: 5px;
+    padding-top: 4px;
+}
+
+.last-icons {
+    padding-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(252, 169, 0);
+}
+
+#right-column-part-two {
+    margin-top: 60px;
+}
+
+#right-column-last-part {
+    margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+    #computer {
+        display: none;
+    }
+}
+
+@media (min-width: 901px) {
+    #mobile {
+        display: none;
+    }
+}
+
+.whole-mobile {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 200;
+}
+
+.zero-part {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.second-part {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.first-part {
+    width: 50%;
+}
+
+.third-part {
+    width: 50%;
+}
+
+.data-mobile {
+    padding-left: 30%;
+}
+
+@media (max-width: 560px) {
+    .data-mobile {
+        padding-left: 20%;
+    }
+}
+
+@media (max-width: 390px) {
+    .data-mobile {
+        padding-left: 10%;
+    }
+}
+
